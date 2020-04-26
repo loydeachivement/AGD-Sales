@@ -8,3 +8,54 @@ footer{
 	text-align: center;
 	color: white;
 }
+body{
+	opacity: 0.5;
+}
+/*Animation of the cover page*/
+#animation{
+	position: relative;
+	-webkit-animation: mymove 5s ;
+	animation: mymove 5s ;
+}
+
+@-webkit-keyframes mymove{
+	from{bottom: -0px;}
+	to{bottom: -700px;}
+}
+@keyframes mymove{
+	from{bottom: -700px;}
+	to{bottom:  -0px;}
+/*Eand of the animation of the cover page*/
+}
+.card-text{
+	font-family: Roboto;
+	font-size: 50px;
+}
+
+.card{
+	border-radius: 2%;
+	height: 500px;
+	width: 1000px;
+	background-color: #f1f1f1;
+}
+/*Animation of the cover page*/
+#animationContact{
+	position: relative;
+	-webkit-animation:  5s ;
+	animation: move 5s ;
+}
+#animationContact{
+	position: relative;
+	-webkit-animation: move 2s ;
+	animation: move 2s ;
+}
+
+@-webkit-keyframes move{
+	from{left: -0px;}
+	to{left: -700px;}
+}
+@keyframes move{
+	from{left: -700px;}
+	to{left:  -0px;}
+/*Eand of the animation of the cover page*/
+}
