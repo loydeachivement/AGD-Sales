@@ -34,8 +34,8 @@ body{
 
 .card{
 	border-radius: 2%;
-	height: 500px;
-	width: 1000px;
+	height: auto;
+	width: auto;
 	background-color: #f1f1f1;
 }
 /*Animation of the cover page*/
